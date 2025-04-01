@@ -5,7 +5,7 @@ During testing, I noticed that the Amiga's right-side power input was not functi
 
 These errors would shuffle continuously
 
-It also showed "No pendant or motor detected"
+It also showed "No pendant or motor detected."
 
 A warning appeared suggesting the CAN bus might be in a bad state
 
