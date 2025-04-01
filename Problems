@@ -1,0 +1,26 @@
+Problem Summary
+During testing, I noticed that the Amiga's right-side power input was not functioning. When attempting to power on the system from the right-side switch, the Amiga did not power up. However, powering it from the left side did activate the Amiga, but it continuously displayed errors on the pendant, specifically:
+
+"Pendant Error 2" and "Pendant Error 3"
+
+These errors would shuffle continuously
+
+It also showed "No pendant or motor detected"
+
+A warning appeared suggesting the CAN bus might be in a bad state
+
+Diagnosis and Root Cause
+After investigation, I found the issue was due to loose connections in the Anderson power cables:
+
+One loose connection was found on the left-side Anderson connector, which supplies power from the battery.
+
+Another loose connection was located on the right-side Anderson cable.
+
+These issues likely occurred due to poor cable management and wires becoming tangled, resulting in unstable power delivery and CAN communication problems.
+
+Solution
+I resolved the problem by:
+
+Carefully inspecting and re-securing the Anderson cable connections on both sides.
+
+Improving the cable management to reduce wire tangling and mechanical stress.
